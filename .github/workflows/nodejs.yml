@@ -1,27 +1,33 @@
-name: Github Pages Deploy
+
+name: Node.js CI
 
 on:
   push:
+    branches:  
+    - master
+    - releases/*
+  pull_request:
     branches:
-      - "main"
+    - master
+    - releases/*
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [15.x]
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v1
+        node-version: [10.x, 12.x]
 
-      - name: Install and build
-        run: npm install && npm run build
-      
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.        
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
+      env:
+        CI: true
