@@ -41,7 +41,10 @@
 }
 
 .contact-heading-img-div>img {
-  border-radius: 50%;
+  min-width: 350px;
+  max-height: 350px;
+  border-radius: 100%;
+  max-width: 50%;  
 }
 
 .blog-heading-img-div {
@@ -188,6 +191,12 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+  }
+
+  .contact-heading-img-div>img {
+    max-width: 50%;
+    min-width: 200px;
+    max-height: 200px;
   }
 
   .blog-header-detail-text {
