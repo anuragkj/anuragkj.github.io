@@ -271,17 +271,17 @@ const degrees = {
       website_link: "https://www.dpsranchi.com/",
     },
     {
-      title: "BITS Pilani Dubai",
+      title: "BITS Pilani",
       subtitle: "B.E. - Computer Science",
       logo_path: "bits_logo.webp",
-      alt_name: "BITS Dubai",
+      alt_name: "BITS Pilani",
       duration: "2020 - 2024",
       descriptions: [
         "⚡ I have recieved a CGPA of 10/10 and recieved of academic excellence awards for academic performance",
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Cryptography, Neural Networks, Data Mining.",
       ],
-      website_link: "https://www.bits-pilani.ac.in/dubai/",
+      website_link: "https://www.bits-pilani.ac.in/",
     },
   ],
 };
@@ -390,7 +390,7 @@ const experience = {
           company_url: "https://www.linkedin.com/company/trajectories-business-solutions-private-limited/",
           logo_path: "trajectorie_logo.png",
           duration: "June 2023 - Currently",
-          location: "Dubai, UAE",
+          location: "India",
           description:
             "I developed a comprehensive LLM AI solution utilizing GPT-3.5 Turbo to replace call center trainers, enabling the analysis of responses, scoring, providing feedback, and suggestions. This full-stack solution was built using Streamlit and MySQL, enhancing the training process for call center agents.",
           color: "#0879bf",
@@ -454,12 +454,10 @@ const experience = {
         {
           title: "Google Developer Student Clubs Mentor",
           company: "Google DSC",
-          company_url: "https://gdsc.community.dev/bits-pilani-dubai/",
           logo_path: "gdsc_logo.png",
           duration: "July 2023 - Current",
-          location: "Dubai",
           description:
-            "Founder and former Student Lead at Google Developer Student Club for BITS Pilani Dubai Campus. Set up team to organise workshops, talks, events and establish the club at the University.",
+            "Founder and former Student Lead at Google Developer Student Club. Set up team to organise workshops, talks, events and establish the club at the University.",
           color: "#D83B01",
         },
         {
@@ -468,7 +466,6 @@ const experience = {
           company_url: "https://www.acmbpdc.org/",
           logo_path: "acm_logo.png",
           duration: "June 2022 - Current",
-          location: "Dubai",
           description:
             "My responsibility for this program was to create opensource environment in college apart from conducting technical events and competitions. We have organised multiple hackathons and competitions. We have build opensource community of our own college.",
           color: "#000000",
@@ -564,10 +561,10 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Flat 301, Azizi Iris, Al Furjan, Dubai, UAE",
+      "1929 Crisanto Ave, Mountain View, California",
     locality: "Al Furjan",
     country: "AE",
-    region: "Dubai",
+    region: "USA",
     postalCode: "17000",
     streetAddress: "Near Discovery Garden Metro Station",
     avatar_image_path: "address_image.svg",
