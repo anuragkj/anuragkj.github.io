@@ -17,6 +17,10 @@ export default function socialMedia(props) {
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media) => {
+        const iconClass =
+          media.fontAwesomeIcon && media.fontAwesomeIcon.indexOf(" ") !== -1
+            ? media.fontAwesomeIcon
+            : `fab ${media.fontAwesomeIcon}`; // default brands; allow full class like 'fas fa-code'
         return (
           <a
             href={media.link}
@@ -25,7 +29,7 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              <i className={iconClass}></i>
             </IconWrapper>
             {/* <span></span> */}
           </a>

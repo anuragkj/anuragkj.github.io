@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "AnuragKumarJha",
   nickname: "anuragkj",
   subTitle:
-    "Graduate student at CMU Silicon Valley focused on full‑stack systems, AI/ML, and scalable microservices. Industry experience building production apps and AI platforms across Bosch, Siemens Energy, and Carnegie Mellon University.",
+    "Graduate student at CMU Silicon Valley focused on full‑stack systems, Gen AI, AI/ML, and scalable microservices. I have Industry experience building production apps and AI platforms across Bosch, Siemens Energy, and Carnegie Mellon University.",
   resumeLink: "https://anuragkj-swe.tiiny.site/", //"https://resume.io/r/H5GWWpKMg",
   portfolio_repository: "https://github.com/anuragkj/masterPortfolio",
   githubProfile: "https://github.com/anuragkj",
@@ -39,7 +39,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/anurag-kumar-jha-680419204/",
+    link: "www.linkedin.com/in/anuragkj-swe",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -54,6 +54,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/anurag.jha30/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "LeetCode",
+    link: "https://leetcode.com/u/anuragkj30/",
+    fontAwesomeIcon: "fas fa-code", // use solid code icon explicitly
+    backgroundColor: "#FFA116",
   },
 ];
 
@@ -269,7 +275,7 @@ const degrees = {
     {
       title: "Carnegie Mellon University, Silicon Valley",
       subtitle: "M.S. in Software Engineering",
-      logo_path: "google_logo.png",
+      logo_path: "cmu.png",
       alt_name: "CMU Silicon Valley",
       duration: "2025 - 2026",
       descriptions: [
@@ -405,7 +411,7 @@ const experience = {
           title: "Research Assistant",
           company: "CMU Silicon Valley",
           company_url: "https://www.cmu.edu/silicon-valley/",
-          logo_path: "cmu.jpg",
+          logo_path: "cmu.png",
           duration: "May 2025 - Present",
           location: "Mountain View, CA, USA",
           description:
@@ -416,7 +422,7 @@ const experience = {
           title: "Teaching Assistant",
           company: "CMU Silicon Valley",
           company_url: "https://www.cmu.edu/silicon-valley/",
-          logo_path: "cmu.jpg",
+          logo_path: "cmu.png",
           duration: "May 2025 - Present",
           location: "Mountain View, CA, USA",
           description:
