@@ -813,14 +813,14 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "1929 Crisanto Ave, Mountain View, California",
+    subtitle: "Mountain View, California",
     locality: "Mountain View",
     country: "US",
     region: "CA",
     postalCode: "",
     streetAddress: "",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/9zwLUZmiCCjfJ4dJA",
+    location_map_link: "https://maps.app.goo.gl/sLeUE1PZ5g4ahJCR8",
   },
   phoneSection: {
     title: "Phone Number",
