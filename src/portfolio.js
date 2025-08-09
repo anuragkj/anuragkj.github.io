@@ -279,7 +279,8 @@ const degrees = {
       alt_name: "CMU Silicon Valley",
       duration: "2025 - 2026",
       descriptions: [
-        "⚡ Coursework and research in Software Engineering, Software Refactoring, Software Verification & Testing, Data Science, Gen AI, and AI/ML.",
+        "⚡ CGPA 3.94.4.0",
+        "⚡ Coursework and research in Software Engineering, Software Refactoring, Software Verification & Testing, Information Security, Software Requirements,Data Science, Gen AI, and AI/ML.",
       ],
       website_link: "https://www.cmu.edu/silicon-valley/",
     },
