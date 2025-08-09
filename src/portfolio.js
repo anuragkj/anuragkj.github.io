@@ -279,7 +279,7 @@ const degrees = {
       alt_name: "CMU Silicon Valley",
       duration: "2025 - 2026",
       descriptions: [
-        "⚡ Coursework and research in full‑stack systems, AI/ML, and software verification/testing.",
+        "⚡ Coursework and research in Software Engineering, Software Refactoring, Software Verification & Testing, Data Science, Gen AI, and AI/ML.",
       ],
       website_link: "https://www.cmu.edu/silicon-valley/",
     },
@@ -593,11 +593,12 @@ const showcaseProjects = {
       role: "Microservices AI Autograder",
       period: "2025 – Present",
       summary:
-        "Event‑driven platform with microservices for rubric‑based grading: LLM‑assisted static analysis, Docker‑sandboxed dynamic analysis, and NLP feedback insights.",
+        "Event‑driven platform with microservices for AI based rubric‑based grading: LLM‑assisted qualitative analysis, Semgrep enabled static analysis, Docker‑sandboxed dynamic analysis, and NLP feedback insights.",
       highlights: [
-        "Static analysis service (Python FastAPI) with LLMs (Gemini, OpenAI)",
+        "Static/Qualitative analysis service (Python FastAPI) with LLMs (Gemini, OpenAI) and tools (Semgrep/Repomix)",
         "Dynamic analysis service (Java Spring Boot) in isolated containers",
         "NLP clustering + custom embeddings for cohort insights",
+        "RabbitMQ for event driven architecture with microservices",
       ],
       tech: [
         "Python",
