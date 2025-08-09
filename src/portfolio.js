@@ -393,7 +393,7 @@ const experience = {
           title: "Software Engineer",
           company: "Bosch",
           company_url: "https://www.bosch.com/",
-          logo_path: "google_logo.png",
+          logo_path: "bosch.png",
           duration: "May 2025 - Present",
           location: "Sunnyvale, CA, USA",
           description:
@@ -404,7 +404,7 @@ const experience = {
           title: "Research Assistant",
           company: "CMU Silicon Valley",
           company_url: "https://www.cmu.edu/silicon-valley/",
-          logo_path: "google_logo.png",
+          logo_path: "cmu.jpg",
           duration: "May 2025 - Present",
           location: "Mountain View, CA, USA",
           description:
@@ -415,7 +415,7 @@ const experience = {
           title: "Teaching Assistant",
           company: "CMU Silicon Valley",
           company_url: "https://www.cmu.edu/silicon-valley/",
-          logo_path: "google_logo.png",
+          logo_path: "cmu.jpg",
           duration: "May 2025 - Present",
           location: "Mountain View, CA, USA",
           description:
@@ -426,7 +426,7 @@ const experience = {
           title: "Software and AI Developer",
           company: "Siemens Energy",
           company_url: "https://www.siemens-energy.com/",
-          logo_path: "google_logo.png",
+          logo_path: "siemens.png",
           duration: "Dec 2023 - Dec 2024",
           location: "United Arab Emirates",
           description:
