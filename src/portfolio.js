@@ -23,15 +23,13 @@ const greeting = {
   logo_name: "AnuragKumarJha",
   nickname: "anuragkj",
   subTitle:
-    "An undergraduate student with a passion for technology, innovation and learning. I have worked on multiple industry projects before and wish to work on projects and ideas that refine the world that we live in. I want to utilize my education for enriching the lives of everyone around me.",
-  resumeLink:
-    "https://resume.io/r/H5GWWpKMg",
+    "Graduate student at CMU Silicon Valley focused on full‑stack systems, AI/ML, and scalable microservices. Industry experience building production apps and AI platforms across Bosch, Siemens Energy, and Carnegie Mellon University.",
+  resumeLink: "https://resume.io/r/H5GWWpKMg",
   portfolio_repository: "https://github.com/anuragkj/masterPortfolio",
   githubProfile: "https://github.com/anuragkj",
 };
 
 const socialMediaLinks = [
-
   {
     name: "Github",
     link: "https://github.com/anuragkj",
@@ -61,156 +59,166 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Full Stack & Frontend",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux, Bootstrap, Tailwind",
-        "⚡ Developing mobile applications using Flutter Flow",
-        "⚡ Creating application backend in Flask, Django, Node & Express",
+        "⚡ Building responsive web apps with React and TypeScript",
+        "⚡ Full‑stack apps with Next.js and GraphQL",
+        "⚡ Robust UI systems and design patterns",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: { color: "#3178C6" },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          style: { color: "#F7DF1E" },
         },
         {
-          skillName: "ReactJS",
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          style: { color: "#61DAFB" },
         },
         {
-          skillName: "Django", 
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#339933",
-          },
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: { color: "#000000" },
         },
         {
-          skillName: "Flask", 
-          fontAwesomeClassname: "simple-icons:flask",
-          style: {
-            color: "#339933",
-          },
-        },
-        
-        {
-          skillName: "NextJS", 
-          fontAwesomeClassname: "simple-icons:next-dot-js",
-          style: {
-            color: "#339933",
-          },
+          skillName: "Styled Components",
+          fontAwesomeClassname: "simple-icons:styledcomponents",
+          style: { color: "#DB7093" },
         },
       ],
     },
     {
-      title: "Data Science & AI",
+      title: "Backend & Microservices",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Exploratory data analysis and visualization using Python",
-        "⚡ Developing models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Designing APIs and services with FastAPI, Django, Node",
+        "⚡ Event‑driven microservices with RabbitMQ and Docker",
+        "⚡ Secure, scalable architectures with auth and observability",
       ],
       softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          fontAwesomeClassname: "simple-icons:python",
+          style: { color: "#3776AB" },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Cloud",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Hosting and maintaining websites along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: { color: "#009688" },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: { color: "#092E20" },
+        },
+        {
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: { color: "#339933" },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: { color: "#007396" },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: { color: "#6DB33F" },
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
+          style: { color: "#FF6600" },
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          style: { color: "#336791" },
         },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "AI/ML & CV",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Designing user interface for mobile and web applications",
-        "⚡ Creating designs for posters",
+        "⚡ Computer Vision pipelines and visual analytics",
+        "⚡ LLM‑powered analysis and RAG systems",
+        "⚡ Model training, evaluation, and deployment",
       ],
       softwareSkills: [
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
+          style: { color: "#EE4C2C" },
+        },
+        {
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "simple-icons:tensorflow",
+          style: { color: "#FF6F00" },
+        },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
+          style: { color: "#5C3EE8" },
+        },
+        {
+          skillName: "scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: { color: "#F7931E" },
+        },
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
+          style: { color: "#412991" },
+        },
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Containerized deployments and CI/CD",
+        "⚡ Cloud services across AWS, Azure, and GCP",
+        "⚡ Data platforms and dashboards",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: { color: "#2496ED" },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: { color: "#FF9900" },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: { color: "#0078D4" },
+        },
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: { color: "#4285F4" },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: { color: "#E10098" },
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "simple-icons:tableau",
+          style: { color: "#E97627" },
         },
       ],
     },
@@ -258,17 +266,15 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Delhi Public School Ranchi",
-      subtitle: "Higher School Certificate",
-      logo_path: "dps_ranchi.png",
-      alt_name: "DPS Ranchi",
-      duration: "2018 - 2020",
+      title: "Carnegie Mellon University, Silicon Valley",
+      subtitle: "M.S. in Software Engineering",
+      logo_path: "google_logo.png",
+      alt_name: "CMU Silicon Valley",
+      duration: "2025 - 2026",
       descriptions: [
-        "⚡ Obtained 98.4% in the CBSE Boards examination.",
-        "⚡ Awarded medal for getting top 3 in State.",
-        
+        "⚡ Coursework and research in full‑stack systems, AI/ML, and software verification/testing.",
       ],
-      website_link: "https://www.dpsranchi.com/",
+      website_link: "https://www.cmu.edu/silicon-valley/",
     },
     {
       title: "BITS Pilani",
@@ -277,9 +283,8 @@ const degrees = {
       alt_name: "BITS Pilani",
       duration: "2020 - 2024",
       descriptions: [
-        "⚡ I have recieved a CGPA of 10/10 and recieved of academic excellence awards for academic performance",
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Cryptography, Neural Networks, Data Mining.",
+        "⚡ CGPA 10/10 with multiple academic excellence awards.",
+        "⚡ Core CS: DS, Algorithms, DBMS, OS, Computer Architecture, AI, Cryptography, Data Mining.",
       ],
       website_link: "https://www.bits-pilani.ac.in/",
     },
@@ -377,7 +382,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked as an intern in multiple companies on works related to Full Stack Development, Data Science and Artificial Intelligence",
+    "Professional experience across software engineering, AI platforms, and research/teaching roles.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -385,15 +390,59 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "AI and Web Developer",
-          company: "Trajectories Business Solutions Private Limited",
-          company_url: "https://www.linkedin.com/company/trajectories-business-solutions-private-limited/",
-          logo_path: "trajectorie_logo.png",
-          duration: "June 2023 - Currently",
-          location: "India",
+          title: "Software Engineer",
+          company: "Bosch",
+          company_url: "https://www.bosch.com/",
+          logo_path: "google_logo.png",
+          duration: "May 2025 - Present",
+          location: "Sunnyvale, CA, USA",
           description:
-            "I developed a comprehensive LLM AI solution utilizing GPT-3.5 Turbo to replace call center trainers, enabling the analysis of responses, scoring, providing feedback, and suggestions. This full-stack solution was built using Streamlit and MySQL, enhancing the training process for call center agents.",
+            "Built a web application for analyzing and annotating ADAS faults. Integrated CV tooling (SAM2, Florence2), Annotorious for labeling, and time‑series visualization (uPlot). Stack: React/TypeScript, FastAPI/Python, PostgreSQL, Docker, Azure.",
           color: "#0879bf",
+        },
+        {
+          title: "Research Assistant",
+          company: "CMU Silicon Valley",
+          company_url: "https://www.cmu.edu/silicon-valley/",
+          logo_path: "google_logo.png",
+          duration: "May 2025 - Present",
+          location: "Mountain View, CA, USA",
+          description:
+            "Engineered an AI Autograder with four decoupled microservices (Python FastAPI, Java Spring Boot) orchestrated via RabbitMQ and container sandboxing; built NLP clustering for class‑wide insights. Cloud native with GCS and Docker.",
+          color: "#000000",
+        },
+        {
+          title: "Teaching Assistant",
+          company: "CMU Silicon Valley",
+          company_url: "https://www.cmu.edu/silicon-valley/",
+          logo_path: "google_logo.png",
+          duration: "May 2025 - Present",
+          location: "Mountain View, CA, USA",
+          description:
+            "TA for Full Stack Development and Software Verification & Testing.",
+          color: "#000000",
+        },
+        {
+          title: "Software and AI Developer",
+          company: "Siemens Energy",
+          company_url: "https://www.siemens-energy.com/",
+          logo_path: "google_logo.png",
+          duration: "Dec 2023 - Dec 2024",
+          location: "United Arab Emirates",
+          description:
+            "Delivered an enterprise RAG platform (Azure AI Search, LangChain, Azure Document Intelligence, React, Quart) and multiple internal apps (Django/Flask/React/jQuery/Cordova). Led CI/CD with Ansible, Dockerized services, and built analytics (Tableau, scikit‑learn, NLP).",
+          color: "#0879bf",
+        },
+        {
+          title: "Software Engineer",
+          company: "fibrisTerre",
+          company_url: "https://www.fibristerre.de/",
+          logo_path: "fibristerre_logo.jpeg",
+          duration: "Sep 2023 - Feb 2024",
+          location: "Berlin, Germany",
+          description:
+            "Developed a full‑stack Next.js application for roadside health monitoring over fiber optic signals with threshold‑based alarms, PostgreSQL, GraphQL, and AWS hosting.",
+          color: "#0071C5",
         },
       ],
     },
@@ -414,8 +463,7 @@ const experience = {
         {
           title: "Software and Web Development Intern",
           company: "fibrisTerre",
-          company_url:
-            "https://www.linkedin.com/company/fibristerre//",
+          company_url: "https://www.linkedin.com/company/fibristerre//",
           logo_path: "fibristerre_logo.jpeg",
           duration: "Multiple Durations",
           location: "Germany (Remote)",
@@ -437,8 +485,7 @@ const experience = {
         {
           title: "Summer Intern",
           company: "Motion Signal Technologies, UK",
-          company_url:
-            "https://motionsignaltechnologies.com/",
+          company_url: "https://motionsignaltechnologies.com/",
           logo_path: "motion_logo.png",
           duration: "June 2021 - September 2018",
           location: "United Kingdom (Remote)",
@@ -494,51 +541,30 @@ const publications = {
   data: [
     {
       id: "1",
-      name: "Deep Learning Based Text Translation and Summarization Tool for Hearing Impaired Using Indian Sign Language",
-      createdAt: "Published in March 2023",
-      description: "There have been multiple text conversions emerging with time but there has hardly been any work in the field of sign language. Even in the field of sign language multiple methods have been proposed to convert it into text via image detection, but due to the rarity of sign language corpus not much work has been put into text or speech to sign language. The proposed project intends to create a translation model to convert text or audio into sign language with its designated grammar. The process includes translation of any language to English followed by summarization of a big article or text, removal of stopwords, reordering the grammar form and stemming words into their root form. The translation is performed by mBART model, summarization is performed using BART model, conversion into animation is done via mapping words into a dictionary and replacing words by letters for unknown words. The paper uses HamNoSys (Regina et al., 1989), SiGML, BART, mBART and NLP to form the translation system. The paper aims to establish better means of communication with the deaf, dumb and people with hearing issues.",
+      name: "Agricultural supply chain management using hyperledger and AIOT",
+      createdAt: "Published in Mar 2025",
+      description:
+        "Integrates Hyperledger Fabric with AI and IoT to improve traceability, security, and efficiency for sensitive‑goods logistics; discusses private blockchain benefits, regulatory compliance, and scalability.",
       url:
-        "https://www.scitepress.org/Papers/2023/117282/117282.pdf",
+        "https://trebuchet.public.springernature.app/get_content/498f20ee-7b5e-439c-9bd3-5cc706d11920?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250321&utm_content=10.1007/s12652-024-04948-y",
     },
     {
       id: "2",
-      name: "AIOT based precision agriculture for Indian farms",
-      createdAt: "Paper accpepted under IEEE Explore",
-      description: "The project is based on creating a webapp for monitoring different agricultural requirements leveraging the power of IoT. On top of thismachine learning models are used for predicting different aspects of the farming.",
-      url:
-        "https://github.com/anuragkj/Crop_Yield_Prediction",
+      name:
+        "Crop Disease Detection and Classification using Transfer Learning and Deep CNNs",
+      createdAt: "Dec 2023 (IEEE MoSICom)",
+      description:
+        "Smartphone‑based plant disease diagnosis using transfer learning across 54k images achieving strong performance (95.62% test accuracy).",
+      url: "https://ieeexplore.ieee.org/document/10458763",
     },
     {
       id: "3",
-      name: "Crop Disease Detection and Classification using SqueezeNet",
-      createdAt: "Paper accpepted under IEEE Explore",
-      description: "The project involves using transfer learning for different deep learning models to find a precise and simple(lowhardware requirement) solution for detection and identification of plant diseases using a smart phone. SqueezeNet has been chosen over other models after analysing the accuracy achieved and its simple hardware requirements.",
+      name: "Precision Agriculture for Indian Farms using AIOT",
+      createdAt: "Nov 2023 (IEEE Engineering Informatics)",
+      description:
+        "AI + IoT for precision agriculture: soil classification, yield prediction, and plant disease detection with deployable web interface.",
       url:
-        "https://github.com/anuragkj/PlantHealth",
-    },
-    {
-      id: "4",
-      name: "Facial anti spoofing using frame level analysis",
-      createdAt: "Under Work",
-      description: "The aim of the project is to develop a model to different kind of spoofing attacks for facial biometrics. For providing a hardware efficient solution the analysis and model formation is done for frame level. The final model is an ensemble of patch analysis, depth analysis and binary pixel wise supervision.",
-      url:
-        "https://github.com/anuragkj/Face-Anti-Spoofing_using_CNN",
-    },
-    {
-      id: "5",
-      name: "Key Blinding for Digital SIgnature Alogrithms",
-      createdAt: "Under Work",
-      description: "The research project does a through survey of existing digital signature algorithms and the issues facedby them. Key blinding is proposed as a solution to improve on the existing systems and benchmark tests are done to validate this claim.",
-      url:
-        "https://github.com/anuragkj/Digital_Signatures_with_Key_Blinding",
-    },
-    {
-      id: "6",
-      name: "Skin lesion classification using multi model ensemble",
-      createdAt: "Under Work",
-      description: "A deep learning project based on creating a model for skin cancer classification. The project is based off transfer learning approach. The models used are fine tuned and an ensemble of these used. The project is able to reach promising results and a front end has been developed for the same.",
-      url:
-        "https://github.com/anuragkj/Skin-Cancer-Detection",
+        "https://ieeexplore.ieee.org/abstract/document/10520651/figures#figures",
     },
   ],
 };
@@ -560,13 +586,12 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "1929 Crisanto Ave, Mountain View, California",
-    locality: "Al Furjan",
-    country: "AE",
-    region: "USA",
-    postalCode: "17000",
-    streetAddress: "Near Discovery Garden Metro Station",
+    subtitle: "1929 Crisanto Ave, Mountain View, California",
+    locality: "Mountain View",
+    country: "US",
+    region: "CA",
+    postalCode: "",
+    streetAddress: "",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/9zwLUZmiCCjfJ4dJA",
   },
