@@ -3,6 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
+  showOpenSource: false,
 };
 
 //SEO Related settings
@@ -24,7 +25,7 @@ const greeting = {
   nickname: "anuragkj",
   subTitle:
     "Graduate student at CMU Silicon Valley focused on full‑stack systems, AI/ML, and scalable microservices. Industry experience building production apps and AI platforms across Bosch, Siemens Energy, and Carnegie Mellon University.",
-  resumeLink: "https://resume.io/r/H5GWWpKMg",
+  resumeLink: "https://anuragkj-swe.tiiny.site/", //"https://resume.io/r/H5GWWpKMg",
   portfolio_repository: "https://github.com/anuragkj/masterPortfolio",
   githubProfile: "https://github.com/anuragkj",
 };
@@ -526,19 +527,234 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. These include full stack webapps, data science project, machine learning and deep learning models, AI applications and Blockchain projects.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create deployable applications powered with Gen AI, multi agentic systems, ML and deploy them using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Research Work",
-  description:
-    "I have worked on few research papers and publications a few of my own.",
+  title: "Research & Patents",
+  description: "Peer‑reviewed publications and filed/issued patents",
   avatar_image_path: "projects_image.svg",
+};
+
+const showcaseProjects = {
+  projects: [
+    {
+      id: "sherlock",
+      name: "Sherlock",
+      role: "ADAS Fault Analytics & Annotation Platform",
+      period: "2025 – Present",
+      summary:
+        "Web app to analyze and annotate ADAS faults, combining CV‑based object tracking, image labeling, time‑series analytics, and multimodal RAG.",
+      highlights: [
+        "Computer Vision: SAM2/SamWise tracking, Florence2 labeling",
+        "Time‑series analytics with uPlot",
+        "Annotation workflows with Annotorious",
+        "Multimodal RAG summaries across image + time‑series",
+        "Dockerized microservices with Azure Blob Storage",
+      ],
+      tech: [
+        "React",
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "Azure",
+        "OpenCV",
+        "uPlot",
+        "Annotorious",
+        "SAM2",
+        "Florence2",
+      ],
+      skills: [
+        "Multi‑agent Systems",
+        "RAG",
+        "React.js",
+        "Generative AI",
+        "PostgreSQL",
+        "Docker",
+        "Microsoft Azure",
+        "Software Testing",
+        "FastAPI",
+      ],
+      image: "",
+      link: "",
+    },
+    {
+      id: "cmu-autograder",
+      name: "CMU Autograder",
+      role: "Microservices AI Autograder",
+      period: "2025 – Present",
+      summary:
+        "Event‑driven platform with microservices for rubric‑based grading: LLM‑assisted static analysis, Docker‑sandboxed dynamic analysis, and NLP feedback insights.",
+      highlights: [
+        "Static analysis service (Python FastAPI) with LLMs (Gemini, OpenAI)",
+        "Dynamic analysis service (Java Spring Boot) in isolated containers",
+        "NLP clustering + custom embeddings for cohort insights",
+      ],
+      tech: [
+        "Python",
+        "FastAPI",
+        "Java",
+        "Spring Boot",
+        "LLMs (Gemini/OpenAI/Ollama)",
+        "Docker",
+        "RabbitMQ",
+        "PostgreSQL",
+        "GCS",
+        "Nginx",
+        "Semgrep",
+        "Docker Compose",
+      ],
+      skills: [
+        "Multi‑agent Systems",
+        "RAG",
+        "React.js",
+        "Generative AI",
+        "PostgreSQL",
+        "Docker",
+        "Software Testing",
+        "FastAPI",
+      ],
+      image: "",
+      link: "",
+    },
+    {
+      id: "siemens-rag",
+      name: "Siemens Energy Global Knowledge Base Chatbot",
+      role: "Enterprise RAG Platform",
+      period: "2023 – 2024",
+      summary:
+        "Enterprise‑grade RAG over diverse docs with Azure AI Search, Document Intelligence, and LangChain; secure and scalable on Azure.",
+      highlights: [
+        "Azure AI Search and Document Intelligence",
+        "LangChain pipelines and governance",
+        "React + Quart application",
+      ],
+      tech: [
+        "React",
+        "Quart",
+        "Azure AI Search",
+        "LangChain",
+        "Azure Document Intelligence",
+        "Docker",
+        "Azure",
+      ],
+      skills: ["RAG", "Azure", "LangChain", "React", "Security", "Scalability"],
+      image: "",
+      link: "",
+    },
+    {
+      id: "cognito-ai",
+      name: "CognitoAI",
+      role: "Autonomous AI Recruitment Platform",
+      period: "2025 – Present",
+      summary:
+        "Multi‑agent hiring automation with voice interviews, coding assessment, and analytics.",
+      highlights: [
+        "CrewAI agents for resume parsing, interviews (Retell AI), performance analysis",
+        "Monaco editor + Judge0 multi‑language execution, hidden tests",
+        "Next.js 14 + Supabase + Clerk for secure org auth",
+      ],
+      tech: [
+        "Next.js 14",
+        "TypeScript",
+        "CrewAI",
+        "OpenAI (GPT‑4o)",
+        "Retell AI",
+        "Supabase (PostgreSQL)",
+        "Judge0",
+        "Clerk",
+        "Docker",
+      ],
+      skills: [
+        "PostgreSQL",
+        "Docker",
+        "Multi‑agent Systems",
+        "LangChain",
+        "FastAPI",
+        "Software Testing",
+      ],
+      image: "",
+      link: "",
+    },
+    {
+      id: "pet-esn",
+      name: "Emergency Social Network for Pet Support",
+      role: "Crisis Support Platform",
+      period: "Jan 2025 – Apr 2025",
+      summary:
+        "Community platform for pet emergencies: real‑time chat, expert consultations, resource exchange, and robust admin features.",
+      highlights: [
+        "WebSocket chat and lost & found reporting",
+        "OpenAI‑assisted expert skills extraction",
+        "DAO‑pattern backend with MongoDB + in‑memory testing",
+        "JWT auth, RBAC, Swagger/OpenAPI",
+        "Socket.IO social features (wall, messaging, announcements)",
+      ],
+      tech: [
+        "Node.js",
+        "Express.js",
+        "MongoDB (Mongoose)",
+        "Socket.IO",
+        "JWT",
+        "OpenAI API",
+        "REST",
+        "Swagger/OpenAPI",
+        "DAO Pattern",
+        "Husky",
+      ],
+      skills: [
+        "Realtime Systems",
+        "Security",
+        "DAO Pattern",
+        "Testing",
+        "API Design",
+      ],
+      image: "",
+      link: "",
+    },
+  ],
 };
 
 const publications = {
   data: [
+    {
+      id: "p1",
+      name:
+        "A Study of Carbon Offsetting and Trading Framework using Blockchain and IoT",
+      createdAt: "Patent 1040-2024 • Issued Jun 20, 2024",
+      description:
+        "Hierarchical blockchain with IoT‑backed telemetry for transparent, secure, and efficient carbon emission trading.",
+      url:
+        "https://drive.google.com/file/d/1l7Sjrs9S3hTMgCvlpBIEqEDSRhqKVLq5/view",
+      type: "patent",
+      patentId: "1040-2024",
+    },
+    {
+      id: "p2",
+      name: "Frame‑Level Facial Anti‑Spoofing Detection Using a CNN Ensemble",
+      createdAt: "Patent 998-2024 • Issued Jun 10, 2024",
+      description:
+        "Ensemble of CNNs (BPX supervision, depth, patch) for lightweight frame‑level anti‑spoofing with deepfake robustness.",
+      url:
+        "https://drive.google.com/file/d/165uPGfQHOAN5miBEpkqGT7SdATH9uZoY/view?usp=sharing",
+      type: "patent",
+      patentId: "998-2024",
+    },
+    {
+      id: "p3",
+      name:
+        "Arabic Text to Emirati Sign Language Generative AI Translation System",
+      createdAt: "Patent 826-2024 • Issued May 21, 2024",
+      description:
+        "LLM‑guided morphological parsing with video sequence synthesis from ESL sign corpus; fingerspelling for OOV.",
+      url:
+        "https://drive.google.com/file/d/1-TcI7NGs5RTwfRekuJTmlgmVEaGsRINn/view",
+      type: "patent",
+      patentId: "826-2024",
+    },
     {
       id: "1",
       name: "Agricultural supply chain management using hyperledger and AIOT",
@@ -547,6 +763,7 @@ const publications = {
         "Integrates Hyperledger Fabric with AI and IoT to improve traceability, security, and efficiency for sensitive‑goods logistics; discusses private blockchain benefits, regulatory compliance, and scalability.",
       url:
         "https://trebuchet.public.springernature.app/get_content/498f20ee-7b5e-439c-9bd3-5cc706d11920?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20250321&utm_content=10.1007/s12652-024-04948-y",
+      type: "publication",
     },
     {
       id: "2",
@@ -556,6 +773,7 @@ const publications = {
       description:
         "Smartphone‑based plant disease diagnosis using transfer learning across 54k images achieving strong performance (95.62% test accuracy).",
       url: "https://ieeexplore.ieee.org/document/10458763",
+      type: "publication",
     },
     {
       id: "3",
@@ -565,6 +783,7 @@ const publications = {
         "AI + IoT for precision agriculture: soil classification, yield prediction, and plant disease detection with deployable web interface.",
       url:
         "https://ieeexplore.ieee.org/abstract/document/10520651/figures#figures",
+      type: "publication",
     },
   ],
 };
@@ -575,7 +794,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "anurag.jpeg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with SWE, Gen AI, ML, AI, App/Mobile Dev and Cloud.",
   },
   blogSection: {
     title: "Blogs",
@@ -597,7 +816,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+971553566198",
+    subtitle: "+1 (650) 220-9090",
   },
 };
 
@@ -614,5 +833,6 @@ export {
   projectsHeader,
   publicationsHeader,
   publications,
+  showcaseProjects,
   contactPageData,
 };

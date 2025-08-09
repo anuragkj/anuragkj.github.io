@@ -11,10 +11,10 @@ export default function PublicationCard({ pub, theme }) {
   return (
     <div
       className="publication-card-div"
-      style={{ backgroundColor: theme.highlight }}
+      onClick={() => pub.url && openPubinNewTab(pub.url)}
     >
       <Fade bottom duration={2000} distance="40px">
-        <div key={pub.id} onClick={() => openPubinNewTab(pub.url)}>
+        <div key={pub.id}>
           <div className="publication-name-div">
             <p className="publication-name" style={{ color: theme.text }}>
               {pub.name}
@@ -28,8 +28,22 @@ export default function PublicationCard({ pub, theme }) {
               className="publication-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Status: {pub.createdAt.split("T")[0]}
+              {pub.createdAt}
             </p>
+            {pub.type === "patent" ? (
+              <a
+                className="pub-badge"
+                href={pub.url || "#"}
+                onClick={(e) => {
+                  if (!pub.url) e.preventDefault();
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={pub.patentId ? `Patent ${pub.patentId}` : "Patent"}
+              >
+                View patent
+              </a>
+            ) : null}
           </div>
           {/* <div className="repo-stats">
           <div className="repo-left-stat">

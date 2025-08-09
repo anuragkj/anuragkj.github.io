@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
@@ -11,10 +10,11 @@ import {
   projectsHeader,
   publicationsHeader,
   publications,
+  showcaseProjects,
 } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import ShowcaseCard from "../../components/showcaseCard/ShowcaseCard";
 
 class Projects extends Component {
   render() {
@@ -50,17 +50,19 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
+          {showcaseProjects.projects.map((proj) => (
+            <ShowcaseCard key={proj.id} project={proj} theme={theme} />
+          ))}
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+        {greeting.githubProfile ? (
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={greeting.githubProfile}
+            newTab={true}
+            theme={theme}
+          />
+        ) : null}
 
         {/* Publications  */}
         {publications.data.length > 0 ? (

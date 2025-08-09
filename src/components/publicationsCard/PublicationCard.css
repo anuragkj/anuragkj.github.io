@@ -1,13 +1,17 @@
 .publication-card-div {
-  color: rgb(88, 96, 105);
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-  padding: 2rem;
+  color: rgb(32, 36, 44);
+  background: linear-gradient(180deg, #ffffff, #f7fbff);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem 1.4rem;
   cursor: pointer;
   flex: 1 1 25%;
+  transition: transform 180ms ease, box-shadow 180ms ease;
 }
 .publication-card-div:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
 .publication-name-div {
@@ -19,8 +23,8 @@
   text-align: left;
   color: rgb(36, 41, 46);
   font-family: "Google Sans Regular";
-  margin-bottom: 0.75rem;
-  font-size: 25px;
+  margin-bottom: 0.5rem;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
@@ -41,6 +45,7 @@
 .publication-details {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .publication-creation-date {
@@ -49,6 +54,22 @@
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
+}
+
+.pub-badge {
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #fff7ed;
+  color: #9a3412;
+  font-size: 0.8rem;
+  border: 1px solid #fed7aa;
+  transition: background 150ms ease, transform 150ms ease, box-shadow 150ms ease;
+}
+
+.pub-badge:hover {
+  background: #ffedd5;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
 @media (max-width: 1200px) {
